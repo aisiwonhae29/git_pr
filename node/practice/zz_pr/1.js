@@ -1,0 +1,1 @@
+console.log(Buffer.byteLength(JSON.stringify(123123123), 'utf-8'));
