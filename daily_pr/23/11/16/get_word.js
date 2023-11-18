@@ -1,0 +1,5 @@
+let json;
+json =  {"dependencies": { "app-root-path": "^2.1.0", "async": "^2.6.1", "axios": "^0.19.0", "bcrypt-nodejs": "0.0.3", "body-parser": "^1.19.0", "buffer": "^5.4.3", "connect-busboy": "0.0.2", "cookie-parser": "~1.4.3", "cors": "^2.8.5", "cron": "^1.8.2", "dateformat": "^3.0.3", "debug": "~2.6.9", "ejs": "~2.5.7", "exceljs": "^4.3.0", "express": "^4.16.4", "express-ejs-layouts": "^2.5.0", "express-mysql-session": "^2.1.2", "express-session": "^1.15.6", "firebase-admin": "^11.5.0", "formidable": "^1.2.6", "fs-extra": "^10.1.0", "ftp-srv": "^4.6.2", "glob": "^7.1.3", "http-errors": "~1.6.2", "iconv-lite": "^0.6.3", "mime": "^3.0.0", "moment": "^2.29.1", "morgan": "~1.9.0", "mssql-session-store": "^1.0.0", "mysql2": "^2.2.5", "node-cron": "^2.0.3", "node-fetch": "^2.6.7", "node-ssh": "^12.0.4", "numeral": "^2.0.6", "request": "^2.88.0", "sync-task-queue": "^1.0.4", "urlencode": "^1.1.0", "window": "^4.2.6", "winston": "^3.8.2", "winston-daily-rotate-file": "^4.7.1", "ws": "^8.13.0", "xlsx": "^0.14.1" }}
+for(key in json.dependencies){
+    console.log(key);
+}
